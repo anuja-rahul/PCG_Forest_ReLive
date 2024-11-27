@@ -1,0 +1,85 @@
+# Ignore Visual Studio files
+.vscode/
+.vscode/*
+*.code-workspace
+
+# Ignore project-specific files
+*.sln
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.pidb
+*.pdb
+*.opendb
+*.VC.db
+*.VC.opendb
+*.dylib
+*.obj
+*.log
+*.tlog
+*.tmp
+*.vscode
+*.sdf
+*.ipch
+*.aps
+*.ncb
+*.opensdf
+*.cachefile
+
+# Ignore Unreal Engine files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+Build/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore auto-generated plugin files
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Ignore auto-generated source files
+Source/*/Binaries/
+Source/*/Intermediate/
+
+# Ignore auto-generated config files
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEngine.ini
+Config/DefaultGame.ini
+Config/DefaultGameUserSettings.ini
+Config/DefaultInput.ini
+Config/DefaultScalability.ini
+
+# Ignore user-specific config files
+Saved/Config/Windows/*
+Saved/Config/Linux/*
+Saved/Config/Mac/*
+Saved/Config/IOS/*
+Saved/Config/Android/*
+Saved/Config/HTML5/*
+Saved/Config/PS4/*
+Saved/Config/XboxOne/*
+
+# Ignore backup files
+*.bak
+
+# Ignore Unreal build files
+*.uprojectdirs
+*.uproject.bak
+
+# Ignore log files
+*.log
+
+# Ignore Derived Data Cache
+DerivedDataCache/*
+
+# Ignore large asset files in Content folder
+Content/*
+
+# Ensure .gitattributes is committed
+!.gitattributes
